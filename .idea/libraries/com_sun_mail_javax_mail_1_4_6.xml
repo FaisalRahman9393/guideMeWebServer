@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="com.sun.mail:javax.mail:1.4.6" type="repository">
+    <properties maven-id="com.sun.mail:javax.mail:1.4.6" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tomcat/lib/javax.mail-1.4.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tomcat/lib/activation-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/tomcat/lib/javax.mail-1.4.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

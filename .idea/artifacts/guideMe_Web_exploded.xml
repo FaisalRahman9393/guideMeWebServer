@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="guideMe:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/guideMe_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="guideMeWebServer/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="guideMeWebServer" />
+          <element id="module-output" name="GmapsFX-2.0.9" />
+          <element id="library" level="project" name="tomcat 9" />
+          <element id="library" level="project" name="tomcat" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/scenebuilder-all-8.3.0-all.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/mysql-connector-java-5.1.40-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/mail-1.4.1.jar" />
+          <element id="library" level="project" name="com.sun.mail:javax.mail:1.4.6" />
+          <element id="library" level="project" name="jstl:jstl:1.2" />
+          <element id="library" level="project" name="com.google.code.gson:gson:2.8.0" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="org.glassfish:javax.json:1.1.0-M1" />
+          <element id="library" level="project" name="gson-2.8.0" />
+          <element id="library" level="project" name="org.codehaus.jackson:jackson-mapper-lgpl:1.9.13" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.1" />
+          <element id="library" level="project" name="Maven: junit:junit:4.10" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
